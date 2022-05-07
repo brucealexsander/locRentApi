@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caelum.Stella.CSharp" Version="1.4.7" />
+    <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+    <PackageReference Include="NHibernate" Version="5.3.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loc.Rent.Application\Loc.Rent.ApplicationCore.csproj" />
+    <ProjectReference Include="..\Loc.Rent.Infrastructure\Loc.Rent.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
