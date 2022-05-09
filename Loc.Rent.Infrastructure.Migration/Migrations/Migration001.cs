@@ -1,10 +1,10 @@
 ﻿using FluentMigrator;
 using System;
 
-namespace Loc.Rent.Infrastructure.Migrations
+namespace Loc.Rent.Infrastructure.Migration.Migrations
 {
     [Migration(1)]
-    public class Migration001 : Migration
+    public class Migration001 : FluentMigrator.Migration
     {
         public override void Down()
         {

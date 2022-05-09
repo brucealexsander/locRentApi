@@ -10,7 +10,7 @@ a criação do banco é manual.
 dotnet tool install -g FluentMigrator.DotNet.Cli
 
 é necessário colocar o caminho absoluto da DLL do projeto de infra.
-dotnet fm migrate -p mysql -c "Server=localhost;Database=locRent;Uid=root;Pwd=teste-123;" -a " local do projeto \Loc.Rent.Infrastructure.dll" --allowDirtyAssemblies
+dotnet fm migrate -p mysql -c "Server=localhost;Database=locRent;Uid=root;Pwd=teste-123;" -a " local do projeto \Loc.Rent.Infrastructure.Migration.dll" --allowDirtyAssemblies
 
 INSERT INTO `country` (`id`, `name`) VALUES ('1', 'Brasil');
 

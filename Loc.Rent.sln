@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91D066E8-FA0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{62D70FBE-E4FB-455B-A362-022AB5002142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loc.Rest.UnitTest", "Loc.Rest.UnitTest\Loc.Rest.UnitTest.csproj", "{0D764267-30E0-48E5-B7DA-75124FEABE04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loc.Rest.UnitTest", "Loc.Rest.UnitTest\Loc.Rest.UnitTest.csproj", "{0D764267-30E0-48E5-B7DA-75124FEABE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loc.Rent.Infrastructure.Migration", "Loc.Rent.Infrastructure.Migration\Loc.Rent.Infrastructure.Migration.csproj", "{92107DF7-45A5-4D36-81C4-8A79B71C30BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{0D764267-30E0-48E5-B7DA-75124FEABE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D764267-30E0-48E5-B7DA-75124FEABE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D764267-30E0-48E5-B7DA-75124FEABE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92107DF7-45A5-4D36-81C4-8A79B71C30BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92107DF7-45A5-4D36-81C4-8A79B71C30BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92107DF7-45A5-4D36-81C4-8A79B71C30BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92107DF7-45A5-4D36-81C4-8A79B71C30BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{0559E3B8-1B42-4868-A374-AB6C9BEECE91} = {91D066E8-FA02-488E-B504-A39229B56576}
 		{548870C3-42C3-46D7-AB3D-F9F66BFD5A5A} = {91D066E8-FA02-488E-B504-A39229B56576}
 		{0D764267-30E0-48E5-B7DA-75124FEABE04} = {62D70FBE-E4FB-455B-A362-022AB5002142}
+		{92107DF7-45A5-4D36-81C4-8A79B71C30BA} = {91D066E8-FA02-488E-B504-A39229B56576}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FE37159-19C8-4E22-893A-B8B54B2ABF46}
