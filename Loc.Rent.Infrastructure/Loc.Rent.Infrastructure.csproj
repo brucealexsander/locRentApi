@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Loc.Rent.Application\Loc.Rent.ApplicationCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataBase\" />
+  </ItemGroup>
+
 </Project>

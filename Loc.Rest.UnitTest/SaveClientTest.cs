@@ -30,9 +30,9 @@ namespace Loc.Rest.UnitTest
         [Fact]
         public async Task ShouldSaveClient()
         {
-            var request = new SaveClientDto("Bruce", "09495990696", new DateTime(1991, 05, 19), "3256855")
+            var request = new SaveClientDto("Bruce", "12345678910", new DateTime(1991, 05, 19), "3256855")
             {
-                Address = new SaveOrUpdateAddressDto("Vinte e um", "8", "Capelinha", "Casa", "32678274", 1)
+                Address = new SaveOrUpdateAddressDto("Vinte e um", "158", "Centro", "Casa", "36552985", 1)
             };
 
             _mockClientGateway.Setup(f => f.SaveClient(It.IsAny<Client>())).ReturnsAsync(true);
@@ -47,9 +47,9 @@ namespace Loc.Rest.UnitTest
         [Fact]
         public async Task ShouldntSaveClient()
         {
-            var request = new SaveClientDto("Bruce", "09495990696", new DateTime(1991, 05, 19), "3256855")
+            var request = new SaveClientDto("Bruce", "12345678910", new DateTime(1991, 05, 19), "3256855")
             {
-                Address = new SaveOrUpdateAddressDto("Vinte e um", "8", "Capelinha", "Casa", "32678274", 1)
+                Address = new SaveOrUpdateAddressDto("Vinte e um", "158", "Centro", "Casa", "36552985", 1)
             };
 
             _mockClientGateway.Setup(f => f.SaveClient(It.IsAny<Client>())).ReturnsAsync(false);
